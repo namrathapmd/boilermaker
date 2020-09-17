@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "start-dev": "webpack -w & nodemon server.js"
+    "start-dev": "webpack -w & nodemon start.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,8 +19,17 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "sequelize": "^6.3.5",
+    "webpack-dev-server": "^3.11.0"
   }
 }
